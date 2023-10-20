@@ -39,9 +39,9 @@ jobs:
           username: ${{ secrets.USER }}
           password: ${{ secrets.PW }}
 
-#      # checkout the codebase
-#      - name: Checkout
-#        uses: actions/checkout@v1
+      # checkout the codebase
+      - name: Checkout
+        uses: actions/checkout@v1
 
       # build and push the development image. The docker v3 action automatically handles the git checkout.
       - name: Build/Push the development image to the registry
