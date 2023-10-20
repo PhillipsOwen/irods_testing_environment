@@ -24,6 +24,7 @@ jobs:
           - debian-11
           - rockylinux-8
           - ubuntu-20.04
+# the following os versions do not have a release.Dockerfile that builds properly:
 #          - debian-12
 #          - rockylinux-9
 #          - ubuntu-22.04
